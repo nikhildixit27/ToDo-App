@@ -5,6 +5,7 @@ const goalSchema = mongoose.Schema(
         user:{
             type: mongoose.Schema.Types.ObjectId,
             required: true,
+            // tell from which model this value is associated with
             ref: "User"
         },
         text: {

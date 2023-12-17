@@ -43,7 +43,7 @@ const updateGoals = asyncHandler(async (req, res) => {
     if (!user) {
         res.status(401)
         throw new Error("User not Found")
-    }
+    }    
 
     // Make sure the logged in user matches the goal user
     if (goal.user.toString() !== user.id) {
