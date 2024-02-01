@@ -108,6 +108,36 @@ h3 {
   background: none;
 }
 
+.goal .goal-date {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.goal .goal-text-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.goal .update-btn {
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+
+  &:hover {
+    transform: scale(0.98);
+  }
+}
+
 .form,
 .content {
   width: 70%;
